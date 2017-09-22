@@ -21,5 +21,4 @@ class Input{
         return $val;
     }
 }
-
 ?>

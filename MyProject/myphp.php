@@ -28,7 +28,7 @@ $t = time();
 $sql = "INSERT INTO php105 (`username`,`massage`,`infotime`) VALUES ('{$user}','{$msg}','{$t}')";
 $is = $mysqli->query($sql);
 
-//判断是否想数据库插入信息成功
+//判断是否像数据库插入信息成功
 if ($is == true){
     header('Location:index.php');
 }else{

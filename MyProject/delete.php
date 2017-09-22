@@ -15,6 +15,4 @@ if ($is == true){
 }else{
     exit("删除失败");
 }
-
-
 ?>
